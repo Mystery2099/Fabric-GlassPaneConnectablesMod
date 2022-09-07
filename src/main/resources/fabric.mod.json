@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "glass_pane_connectables_mod",
+  "version": "${version}",
+  "name": "Glass Pane Connectables Mod",
+  "description": "Allows you to make glass panes connect to non-full blocks simply by putting that block ina tag!",
+  "authors": [
+    "Mystery2099"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "minecraft/assets/textures/block/glass",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.mystery2099.glass_pane_connectables_mod.client.GlassPaneConnectablesModClient"
+    ],
+    "main": [
+      "net.mystery2099.glass_pane_connectables_mod.GlassPaneConnectablesMod"
+    ]
+  },
+  "mixins": [
+    "glass_pane_connectables_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
