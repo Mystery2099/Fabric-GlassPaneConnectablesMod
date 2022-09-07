@@ -11,9 +11,6 @@
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "net.mystery2099.glass_pane_connectables_mod.client.GlassPaneConnectablesModClient"
-    ],
     "main": [
       "net.mystery2099.glass_pane_connectables_mod.GlassPaneConnectablesMod"
     ]
